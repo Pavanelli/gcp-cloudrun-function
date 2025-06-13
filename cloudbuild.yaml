@@ -1,14 +1,14 @@
 steps:
   - name: 'gcr.io/cloud-builders/gcloud'
     args:
-      - functions
-      - deploy
-      - helloWorld
-      - --entry-point=helloWorld
-      - --runtime=nodejs20
-      - --trigger-http
-      - --allow-unauthenticated
-      - --region=us-central1
-      - --source=.
-timeout: 540s
-teste
+      - 'functions'
+      - 'deploy'
+      - 'helloWorld'
+      - '--entry-point=helloWorld'
+      - '--runtime=nodejs20'
+      - '--trigger-http'
+      - '--allow-unauthenticated'
+      - '--region=us-central1'
+      - '--source=.'
+
+timeout: '540s'
